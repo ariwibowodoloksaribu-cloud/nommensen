@@ -14,6 +14,7 @@ use Filament\Schemas\Schema;
 use Filament\Tables\Table;
 use UnitEnum;
 
+
 class AboutmeResource extends Resource
 {
     protected static ?string $model = Aboutme::class;
@@ -26,12 +27,12 @@ class AboutmeResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        return AboutmeForm::configure($schema);
+        return AboutmeForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return AboutmesTable::configure($table);
+        return AboutmesTable::table($table);
     }
 
     public static function getRelations(): array

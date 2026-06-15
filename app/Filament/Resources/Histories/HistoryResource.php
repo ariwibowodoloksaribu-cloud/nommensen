@@ -25,12 +25,12 @@ class HistoryResource extends Resource
     protected static ?int $navigationSort = 2;
     public static function form(Schema $schema): Schema
     {
-        return HistoryForm::configure($schema);
+        return HistoryForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return HistoriesTable::configure($table);
+        return HistoriesTable::table($table);
     }
 
     public static function getRelations(): array

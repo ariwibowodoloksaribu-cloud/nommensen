@@ -27,12 +27,12 @@ class StudentResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        return StudentForm::configure($schema);
+        return StudentForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return StudentsTable::configure($table);
+        return StudentsTable::table($table);
     }
 
     public static function getRelations(): array

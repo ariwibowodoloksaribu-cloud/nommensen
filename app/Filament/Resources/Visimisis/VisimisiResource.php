@@ -26,12 +26,12 @@ class VisimisiResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        return VisimisiForm::configure($schema);
+        return VisimisiForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return VisimisisTable::configure($table);
+        return VisimisisTable::table($table);
     }
 
     public static function getRelations(): array
