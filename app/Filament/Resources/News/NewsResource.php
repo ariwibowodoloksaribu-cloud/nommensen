@@ -9,10 +9,12 @@ use App\Filament\Resources\News\Schemas\NewsForm;
 use App\Filament\Resources\News\Tables\NewsTable;
 use App\Models\News;
 use BackedEnum;
+use Filament\Pages\Page;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Tables\Table;
 use UnitEnum;
+
 
 class NewsResource extends Resource
 {
@@ -26,12 +28,12 @@ class NewsResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        return NewsForm::configure($schema);
+        return NewsForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return NewsTable::configure($table);
+        return NewsTable::table($table);
     }
 
     public static function getRelations(): array

@@ -27,12 +27,12 @@ class AnnouncementResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        return AnnouncementForm::configure($schema);
+        return AnnouncementForm::form($schema);
     }
 
     public static function table(Table $table): Table
     {
-        return AnnouncementsTable::configure($table);
+        return AnnouncementsTable::table($table);
     }
 
     public static function getRelations(): array
