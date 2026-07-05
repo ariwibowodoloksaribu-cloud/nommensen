@@ -6,7 +6,7 @@
             @isset($footer)
                 <img src="{{ asset('storage/' . $footer->image) }}"
                      alt="Logo B University"
-                     class="h-12 w-auto mb-4 brightness-0 invert">
+                     class="h-12 w-auto mb-4"> 
             @endisset
             <h3 class="text-white text-lg font-bold mb-3">B University</h3>
             <p class="text-sm leading-relaxed">
@@ -18,11 +18,11 @@
         <div>
             <h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Navigasi</h4>
             <ul class="space-y-2 text-sm">
-                <li><a href="{{ route('profile') }}"       class="hover:text-white transition">Profil Universitas</a></li>
-                <li><a href="{{ route('lectures') }}"      class="hover:text-white transition">Dosen</a></li>
-                <li><a href="{{ route('students') }}"      class="hover:text-white transition">Mahasiswa</a></li>
+                <li><a href="{{ route('profile') }}" class="hover:text-white transition">Profil Universitas</a></li>
+                <li><a href="{{ route('lectures') }}" class="hover:text-white transition">Dosen</a></li>
+                <li><a href="{{ route('students') }}" class="hover:text-white transition">Mahasiswa</a></li>
                 <li><a href="{{ route('announcements') }}" class="hover:text-white transition">Pengumuman</a></li>
-                <li><a href="{{ route('news') }}"          class="hover:text-white transition">Berita</a></li>
+                <li><a href="{{ route('news') }}" class="hover:text-white transition">Berita</a></li>
             </ul>
         </div>
 
