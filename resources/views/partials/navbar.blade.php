@@ -9,7 +9,7 @@
                          alt="Logo B University"
                          class="h-9 w-9 object-contain">
                 @endisset
-                <span class="text-lg font-bold text-slate-900">B University</span>
+                <span class="text-lg font-bold text-slate-900">UHKBPNP</span>
             </a>
 
             {{-- MENU DESKTOP --}}

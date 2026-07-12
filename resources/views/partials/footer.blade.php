@@ -61,7 +61,7 @@
     {{-- COPYRIGHT --}}
     <div class="border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center text-xs text-slate-400">
-            © {{ date('Y') }} B University. Seluruh hak cipta dilindungi.
+            © {{ date('Y') }} UHKBPNP. Seluruh hak cipta dilindungi.
         </div>
     </div>
 </footer>

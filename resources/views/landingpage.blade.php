@@ -29,11 +29,11 @@
             </span>
 
             <h1 class="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                B University
+                Selamat Datang di <span class="text-blue-400">UHKBPNP</span>
             </h1>
 
             <p class="mt-6 max-w-2xl text-lg leading-8 text-blue-100">
-                {{ \Illuminate\Support\Str::limit(strip_tags($aboutme->content ?? 'B University adalah institusi pendidikan tinggi yang berkomitmen menghasilkan lulusan unggul, adaptif, dan siap menghadapi perkembangan teknologi.'), 190) }}
+                {{ \Illuminate\Support\Str::limit(strip_tags($aboutme->content ?? 'UHKBPNP adalah institusi pendidikan tinggi yang berkomitmen menghasilkan lulusan unggul, adaptif, dan siap menghadapi perkembangan teknologi.'), 190) }}
             </p>
 
             <div class="mt-8 flex flex-col gap-3 sm:flex-row">
