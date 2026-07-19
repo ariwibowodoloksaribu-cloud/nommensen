@@ -16,7 +16,7 @@
 @endphp
 
 {{-- HERO SECTION --}}
-<section class="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 text-white">
+<section class="relative overflow-hidden bg-linear-to-br from-blue-900 via-blue-800 to-slate-900 text-white">
     <div class="absolute inset-0 opacity-10">
         <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-white blur-3xl"></div>
         <div class="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-blue-300 blur-3xl"></div>
@@ -68,9 +68,9 @@
             @if($heroImage)
                 <img src="{{ asset('storage/' . $heroImage) }}"
                      alt="B University"
-                     class="h-[420px] w-full rounded-3xl object-cover shadow-2xl ring-1 ring-white/20">
+                     class="h-105 w-full rounded-3xl object-cover shadow-2xl ring-1 ring-white/20">
             @else
-                <div class="flex h-[420px] w-full items-center justify-center rounded-3xl bg-white/10 shadow-2xl ring-1 ring-white/20">
+                <div class="flex h-105 w-full items-center justify-center rounded-3xl bg-white/10 shadow-2xl ring-1 ring-white/20">
                     <div class="text-center">
                         <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-white/20 text-3xl font-black">
                             BU
@@ -327,7 +327,7 @@
 
 {{-- CTA --}}
 <section class="bg-slate-50 py-20">
-    <div class="mx-auto max-w-5xl rounded-3xl bg-gradient-to-br from-blue-700 to-blue-950 px-6 py-14 text-center text-white shadow-xl sm:px-10">
+    <div class="mx-auto max-w-5xl rounded-3xl bg-linear-to-br from-blue-700 to-blue-950 px-6 py-14 text-center text-white shadow-xl sm:px-10">
         <h2 class="text-3xl font-bold sm:text-4xl">Siap Mengenal B University Lebih Dekat?</h2>
         <p class="mx-auto mt-4 max-w-2xl text-blue-100">
             Jelajahi profil, data dosen, pengumuman, berita, dan informasi kampus lainnya melalui website resmi ini.
